@@ -1,16 +1,26 @@
-# weather_app
+# ☀️ Weather App
 
-A new Flutter project.
+Aplicativo de Previsão do Tempo desenvolvido em Flutter para exibir previsão em tempo real. ⛅
 
-## Getting Started
+## 🌍 Visão Geral
+Este app consome a API do Open-Meteo para buscar dados de temperatura, umidade e horários atualizados. A interface possui um design moderno com gradientes e animações suaves, proporcionando uma experiência visual atraente. 🎨
 
-This project is a starting point for a Flutter application.
+## 🚀 Funcionalidades
+- 🌡️ Previsão do tempo atualizada por hora
+- 💧 Exibição de temperatura e umidade
+- ⏰ Saudacão dinâmica baseada no horário ("Bom dia", "Boa tarde", "Boa noite")
+- 🔄 Atualização automática do horário e data
+- 📱 Interface responsiva
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tecnologias Utilizadas
+- **Flutter**
+- **Dart**
+- **Google Fonts**
+- **HTTP**
+- **intl (Internationalization e formatação de datas)**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🌐 API Utilizada
+- [Open-Meteo API](https://api.open-meteo.com/) - Previsão do tempo gratuita e de alta precisão.
+- 
+<img src="https://github.com/user-attachments/assets/aab23b7c-1fc6-48aa-8172-9d78d1fecf9c" alt="App Screenshot" width="400">
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
