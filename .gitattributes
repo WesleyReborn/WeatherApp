@@ -1,7 +1,15 @@
+# Priorizar Dart
 *.dart linguist-detectable=true
+
+# Ignorar completamente CMake
+CMakeLists.txt linguist-detectable=false
 *.cmake linguist-detectable=false
+
+# Ignorar C++
 *.cpp linguist-detectable=false
 *.h linguist-detectable=false
+
+# Ignorar outros builds
 *.swift linguist-detectable=false
 *.kt linguist-detectable=false
 *.html linguist-detectable=false
